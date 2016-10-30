@@ -4,6 +4,7 @@
 
 <!-- Master Gain -->
 <Binding channel="1" ctl="10" uri="/bus/gain master"/>
+<Binding channel="2" ctl="10" uri="/bus/gain master"/>
 
 <!-- Volume on tracks 1-8 -->
 <Binding channel="1" ctl="20" uri="/route/gain 1"/>
@@ -14,6 +15,17 @@
 <Binding channel="1" ctl="25" uri="/route/gain 6"/>
 <Binding channel="1" ctl="26" uri="/route/gain 7"/>
 <Binding channel="1" ctl="27" uri="/route/gain 8"/>
+
+<!-- Volume on tracks 9-16 -->
+<Binding channel="2" ctl="20" uri="/route/gain 9"/>
+<Binding channel="2" ctl="21" uri="/route/gain 10"/>
+<Binding channel="2" ctl="22" uri="/route/gain 11"/>
+<Binding channel="2" ctl="23" uri="/route/gain 12"/>
+<Binding channel="2" ctl="24" uri="/route/gain 13"/>
+<Binding channel="2" ctl="25" uri="/route/gain 14"/>
+<Binding channel="2" ctl="26" uri="/route/gain 15"/>
+<Binding channel="2" ctl="27" uri="/route/gain 16"/>
+
 <!-- Panning on tracks 1-8 -->
 <Binding channel="1" ctl="102" uri="/route/pandirection 1"/>
 <Binding channel="1" ctl="103" uri="/route/pandirection 2"/>
@@ -23,6 +35,16 @@
 <Binding channel="1" ctl="107" uri="/route/pandirection 6"/>
 <Binding channel="1" ctl="108" uri="/route/pandirection 7"/>
 <Binding channel="1" ctl="109" uri="/route/pandirection 8"/>
+
+<!-- Panning on tracks 9-16 -->
+<Binding channel="2" ctl="102" uri="/route/pandirection 9"/>
+<Binding channel="2" ctl="103" uri="/route/pandirection 10"/>
+<Binding channel="2" ctl="104" uri="/route/pandirection 11"/>
+<Binding channel="2" ctl="105" uri="/route/pandirection 12"/>
+<Binding channel="2" ctl="106" uri="/route/pandirection 13"/>
+<Binding channel="2" ctl="107" uri="/route/pandirection 14"/>
+<Binding channel="2" ctl="108" uri="/route/pandirection 15"/>
+<Binding channel="2" ctl="109" uri="/route/pandirection 16"/>
 
 <!-- Solo on tracks 1-8 -->
 <Binding channel="1" ctl="52" uri="/route/solo 1"/>
@@ -34,6 +56,16 @@
 <Binding channel="1" ctl="58" uri="/route/solo 7"/>
 <Binding channel="1" ctl="59" uri="/route/solo 8"/>
 
+<!-- Solo on tracks 9-16 -->
+<Binding channel="2" ctl="52" uri="/route/solo 9"/>
+<Binding channel="2" ctl="53" uri="/route/solo 10"/>
+<Binding channel="2" ctl="54" uri="/route/solo 11"/>
+<Binding channel="2" ctl="55" uri="/route/solo 12"/>
+<Binding channel="2" ctl="56" uri="/route/solo 13"/>
+<Binding channel="2" ctl="57" uri="/route/solo 14"/>
+<Binding channel="2" ctl="58" uri="/route/solo 15"/>
+<Binding channel="2" ctl="59" uri="/route/solo 16"/>
+
 <!-- Mute on tracks 1-8 -->
 <Binding channel="1" ctl="80" uri="/route/mute 1"/>
 <Binding channel="1" ctl="81" uri="/route/mute 2"/>
@@ -44,5 +76,14 @@
 <Binding channel="1" ctl="86" uri="/route/mute 7"/>
 <Binding channel="1" ctl="87" uri="/route/mute 8"/>
 
+<!-- Mute on tracks 9-16 -->
+<Binding channel="2" ctl="80" uri="/route/mute 9"/>
+<Binding channel="2" ctl="81" uri="/route/mute 10"/>
+<Binding channel="2" ctl="82" uri="/route/mute 11"/>
+<Binding channel="2" ctl="83" uri="/route/mute 12"/>
+<Binding channel="2" ctl="84" uri="/route/mute 13"/>
+<Binding channel="2" ctl="85" uri="/route/mute 14"/>
+<Binding channel="2" ctl="86" uri="/route/mute 15"/>
+<Binding channel="2" ctl="87" uri="/route/mute 16"/>
 
 </ArdourMIDIBindings>
